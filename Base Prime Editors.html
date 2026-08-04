@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Editors — Marc O Editor</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F1F0EF; --bg-white:#FFFFFF; --ink:#1A1A1A; --ink-soft:#3A3A3A; --ink-mute:#7A7A7A;
+    --blue:#0858E2; --blue-deep:#0648BB; --blue-light:#8FB5F5; --blue-tint:#E6EEFC;
+    --red:#ED1D24; --green:#0E7C4A; --line:rgba(26,26,26,.12);
+  }
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    line-height:1.5; font-size:16px; overflow-x:hidden;
+  }
+  .hl{ color:var(--blue); text-decoration:underline; text-decoration-thickness:3px; text-underline-offset:4px; text-decoration-color:var(--blue-light); }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="pt-6 pb-2 px-6">
+  <div class="flex items-center justify-center gap-2">
+    <img src="PERSONALIZACION/LOGO PRIME EDITORS.png" alt="Prime Editors" class="w-7 h-7 rounded-lg object-cover">
+    <span class="font-extrabold tracking-tight text-sm uppercase">Prime Editors</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="pt-6 md:pt-8 pb-16 md:pb-20 px-6 lg:px-8">
+  <div class="max-w-[880px] mx-auto text-center">
+    <h1 class="text-[32px] md:text-[48px] leading-[1.15] font-extrabold tracking-tight">
+      Conviértete en editor de <span class="hl">ALTO VALOR</span> para ganar <span class="hl">+1.200€ al mes</span> y vivir de la edición sin hacer marca personal.
+    </h1>
+    <p class="mt-6 text-lg text-[var(--ink-mute)] max-w-[620px] mx-auto">
+      Pasé de cobrar <strong class="text-[var(--ink)]">$50 por edición</strong> a facturar más de <strong class="text-[var(--ink)]">$3.500 al mes</strong> sin grabarme ni subir contenido a redes para atraer clientes. Dentro de Prime Editors te enseño el mismo sistema. Completa el formulario y agenda tu llamada estratégica gratuita para ver si encajas.
+    </p>
+
+    <div class="mt-10">
+      <span class="text-[11px] font-bold uppercase tracking-widest text-[var(--ink-mute)]">La verdad que nadie te cuenta antes de empezar</span>
+    </div>
+  </div>
+
+  <div class="mt-4 relative max-w-[860px] mx-auto aspect-video rounded-xl bg-[var(--ink)] overflow-hidden shadow-xl">
+    <video controls preload="metadata" class="w-full h-full object-cover">
+      <source src="PERSONALIZACION/PREVIEW - vfxmarcoo (1080p, h264, youtube).mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="max-w-[880px] mx-auto text-center">
+    <p class="mt-4 text-base text-[var(--ink-mute)] max-w-[480px] mx-auto">Este es el método exacto con el que pasé de $0 a +$3.500 en 90 días. Míralo antes de reservar tu llamada.</p>
+    <div class="mt-8 flex justify-center">
+      <a href="#reservar" class="inline-flex items-center gap-2 bg-[var(--blue)] hover:bg-[var(--blue-deep)] transition-colors text-white text-xs font-bold uppercase tracking-wide px-7 py-4 rounded-full shadow-[0_14px_30px_-8px_rgba(8,88,226,0.45)]">
+        Reserva tu llamada gratis
+        <span class="flex items-center justify-center w-5 h-5 rounded-full bg-white/25">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mt-16 flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-[var(--ink-mute)] border-t border-[var(--line)] pt-8 max-w-[880px] mx-auto">
+    <span><strong class="text-[var(--ink)]">+300M</strong> de vistas generadas</span>
+    <span><strong class="text-[var(--ink)]">+1.500</strong> editores formados</span>
+    <span><strong class="text-[var(--ink)]">+200</strong> testimonios en video</span>
+    <span><strong class="text-[var(--ink)]">10+</strong> años editando</span>
+  </div>
+</section>
+
+<!-- FOR YOU / NOT FOR YOU -->
+<section class="py-16 md:py-24 px-6 lg:px-8 border-t border-[var(--line)]">
+  <div class="max-w-[1280px] mx-auto">
+    <div class="text-center max-w-[640px] mx-auto mb-12">
+      <div class="flex items-center justify-center gap-2 mb-3">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="var(--blue)"><path d="M12 0l2.5 8.5L23 11l-8.5 2.5L12 22l-2.5-8.5L1 11l8.5-2.5z"/></svg>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[var(--blue)]">A quién va dirigido</span>
+      </div>
+      <h2 class="text-[28px] md:text-[40px] font-extrabold uppercase tracking-tight">¿Es Prime Editors <span class="hl">para ti</span>?</h2>
+      <p class="mt-4 text-lg text-[var(--ink-mute)]">No trabajamos con cualquiera. Antes de meternos en tu portafolio te decimos honestamente si encajas, o no.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl p-8 border border-[var(--line)]">
+        <div class="flex items-center gap-3 mb-6">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase tracking-tight">Es para ti</h3>
+          <span class="inline-block text-[11px] font-bold uppercase text-white bg-[var(--blue)] px-3 py-1 rounded-full">Sí</span>
+        </div>
+        <ul class="space-y-4 text-lg text-[var(--ink-soft)]">
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[var(--blue-tint)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="var(--blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Editas video y quieres entender cómo construir tu marca personal desde cero.</li>
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[var(--blue-tint)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="var(--blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Ya tienes clientes fijos, pero sientes que facturas por debajo de lo que vales.</li>
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[var(--blue-tint)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="var(--blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tienes buenos trabajos en tu portafolio, pero ningún sistema que los respalde.</li>
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[var(--blue-tint)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="var(--blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Quieres una marca que atraiga clientes sola, sin que tengas que perseguirlos.</li>
+        </ul>
+      </div>
+
+      <div class="bg-[var(--ink)] rounded-2xl p-8">
+        <div class="flex items-center gap-3 mb-6">
+          <h3 class="text-xl md:text-2xl font-extrabold uppercase tracking-tight text-white">No es para ti</h3>
+          <span class="inline-block text-[11px] font-bold uppercase text-white bg-[var(--red)] px-3 py-1 rounded-full">No</span>
+        </div>
+        <ul class="space-y-4 text-lg text-white/75">
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[rgba(237,29,36,.18)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="var(--red)" stroke-width="3" stroke-linecap="round"/></svg></span>Recién empiezas, no tienes ni un cliente y esperas resultados sin mover un dedo.</li>
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[rgba(237,29,36,.18)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="var(--red)" stroke-width="3" stroke-linecap="round"/></svg></span>Buscas un "algoritmo mágico" y no estás dispuesto a cambiar cómo te perciben.</li>
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[rgba(237,29,36,.18)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="var(--red)" stroke-width="3" stroke-linecap="round"/></svg></span>No puedes dedicar ni una hora cada dos semanas a dirección creativa.</li>
+          <li class="flex gap-3"><span class="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full bg-[rgba(237,29,36,.18)] flex items-center justify-center"><svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="var(--red)" stroke-width="3" stroke-linecap="round"/></svg></span>Quieres delegarlo todo sin grabarte: aquí no apareces en cámara por mí.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENDA TU LLAMADA -->
+<section class="py-16 md:py-24 px-6 lg:px-8" id="reservar">
+  <div class="max-w-[1280px] mx-auto grid md:grid-cols-2 gap-14 items-start">
+    <div>
+      <div class="flex items-center gap-2 mb-5">
+        <span class="w-2.5 h-2.5 bg-[var(--blue)]"></span>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[var(--ink-mute)]">Solo para editores comprometidos</span>
+      </div>
+      <h2 class="text-[32px] md:text-[44px] font-extrabold uppercase tracking-tight leading-[1.1]">
+        Si quieres crecer de <span class="hl">verdad</span>, agenda una llamada.
+      </h2>
+      <p class="mt-6 text-lg text-[var(--ink-mute)] max-w-[460px]">
+        Revisamos cada solicitud personalmente. Si encajas, te contactamos en menos de 48h con una propuesta concreta. Si no encajas, también te lo decimos, sin hacerte perder el tiempo a ti ni a nosotros.
+      </p>
+      <ul class="mt-8 space-y-4 text-lg text-[var(--ink-soft)]">
+        <li class="flex items-center gap-3"><span class="text-[var(--blue)] font-bold text-lg leading-none">+</span>Llamada conmigo, no con un comercial</li>
+        <li class="flex items-center gap-3"><span class="text-[var(--blue)] font-bold text-lg leading-none">+</span>Auditoría de tu portafolio y diagnóstico honesto</li>
+        <li class="flex items-center gap-3"><span class="text-[var(--blue)] font-bold text-lg leading-none">+</span>Propuesta concreta y personalizada a tu situación</li>
+        <li class="flex items-center gap-3"><span class="text-[var(--blue)] font-bold text-lg leading-none">+</span>Garantía de resultados, o seguimos contigo hasta conseguirlos</li>
+      </ul>
+    </div>
+
+    <div class="bg-white rounded-3xl border border-[var(--line)] shadow-lg p-6 md:p-8">
+      <h3 class="text-xl font-extrabold">Agenda tu llamada con Prime Editors</h3>
+      <p class="mt-2 text-base text-[var(--ink-mute)]">Elige el horario que mejor te encaje directamente en el calendario.</p>
+      <div class="mt-6">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/vfxmarcoo/45min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT CHANGES -->
+<section class="py-16 md:py-24 px-6 lg:px-8">
+  <div class="max-w-[1280px] mx-auto">
+    <div class="text-center max-w-[640px] mx-auto mb-12">
+      <span class="text-[11px] font-bold uppercase tracking-widest text-[var(--blue)]">Lo que obtienes</span>
+      <h2 class="mt-3 text-[26px] md:text-[36px] font-extrabold tracking-tight">Esto es lo que <span class="hl">cambia</span> al trabajar conmigo.</h2>
+      <p class="mt-4 text-lg text-[var(--ink-mute)]">Diseñé Prime Editors a propósito pequeño, construido alrededor de una sola cosa: llevarte de editor desconocido a tener un flujo constante de clientes que te buscan a ti. Esto es lo que incluye:</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-8 border border-[var(--line)] shadow-sm">
+        <div class="w-11 h-11 rounded-xl bg-[var(--blue-tint)] flex items-center justify-center mb-5">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v12H7l-3 3V4z" stroke="var(--blue)" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="font-bold text-base mb-2">Llamadas grupales semanales en vivo</h3>
+        <p class="text-base text-[var(--ink-mute)]">Quedan grabadas por si no puedes conectarte en directo. Feedback en tiempo real sobre portafolio, captación y estrategia. Nunca te quedas atascado sin respuesta.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 border border-[var(--line)] shadow-sm">
+        <div class="w-11 h-11 rounded-xl bg-[var(--blue-tint)] flex items-center justify-center mb-5">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="var(--blue)" stroke-width="1.8"/><circle cx="12" cy="12" r="3" stroke="var(--blue)" stroke-width="1.8"/></svg>
+        </div>
+        <h3 class="font-bold text-base mb-2">El método del Silent Portfolio</h3>
+        <p class="text-base text-[var(--ink-mute)]">Mi marco exacto para posicionarte como un referente y no como "un editor más", usando contenido y posicionamiento en Twitter sin necesidad de grabarte ni aparecer en cámara.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 border border-[var(--line)] shadow-sm">
+        <div class="w-11 h-11 rounded-xl bg-[var(--blue-tint)] flex items-center justify-center mb-5">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17 20v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 20v-2a4 4 0 0 0-3-3.87M16 4.13a4 4 0 0 1 0 7.75" stroke="var(--blue)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="font-bold text-base mb-2">Sistema de captación de clientes</h3>
+        <p class="text-base text-[var(--ink-mute)]">Deja de perseguir clientes en frío. Aprende a posicionarte para que sean los clientes ideales quienes te busquen a ti, disculpándose por no haberte encontrado antes.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 border border-[var(--line)] shadow-sm">
+        <div class="w-11 h-11 rounded-xl bg-[var(--blue-tint)] flex items-center justify-center mb-5">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z" stroke="var(--blue)" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="font-bold text-base mb-2">Feedback de portafolio y contenido</h3>
+        <p class="text-base text-[var(--ink-mute)]">Feedback directo sobre tu trabajo real. Tus videos y tus propuestas, revisados en grupo, para que sepas exactamente qué mejorar y por qué.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 border border-[var(--line)] shadow-sm">
+        <div class="w-11 h-11 rounded-xl bg-[var(--blue-tint)] flex items-center justify-center mb-5">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M2 6l10-4 10 4-10 4-10-4zM2 6v9M22 6v9M6 8v6c0 1.5 2.5 3 6 3s6-1.5 6-3V8" stroke="var(--blue)" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="font-bold text-base mb-2">Currículum completo + comunidad</h3>
+        <p class="text-base text-[var(--ink-mute)]">Un paso a paso completo que cubre posicionamiento, captación de clientes y estructura de oferta. Además, acceso a una comunidad de editores serios en tu misma etapa. Este grupo no es para cualquiera.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALL COVERS -->
+<section class="bg-white py-16 md:py-24 px-6 lg:px-8 border-t border-[var(--line)]">
+  <div class="max-w-[1280px] mx-auto">
+    <div class="text-center max-w-[640px] mx-auto mb-12">
+      <span class="text-[11px] font-bold uppercase tracking-widest text-[var(--blue)]">Llamada estratégica gratuita</span>
+      <h2 class="mt-3 text-[26px] md:text-[36px] font-extrabold tracking-tight">Esto es lo que <span class="hl">cubrimos</span> en tu llamada.</h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-[var(--bg)] rounded-2xl p-8">
+        <span class="w-9 h-9 rounded-full bg-[var(--blue-tint)] text-[var(--blue)] font-bold text-sm flex items-center justify-center mb-5">01</span>
+        <h3 class="font-bold text-base mb-2">Auditamos tu situación actual</h3>
+        <p class="text-base text-[var(--ink-mute)]">Vemos dónde estás hoy, qué está funcionando, qué está cambiando en tu nicho y qué te está frenando para dar el siguiente paso.</p>
+      </div>
+      <div class="bg-[var(--bg)] rounded-2xl p-8">
+        <span class="w-9 h-9 rounded-full bg-[var(--blue-tint)] text-[var(--blue)] font-bold text-sm flex items-center justify-center mb-5">02</span>
+        <h3 class="font-bold text-base mb-2">Te explicamos el método</h3>
+        <p class="text-base text-[var(--ink-mute)]">Nuestro sistema para conseguir y cerrar clientes de forma orgánica y constante. Funciona igual si partes de cero.</p>
+      </div>
+      <div class="bg-[var(--bg)] rounded-2xl p-8">
+        <span class="w-9 h-9 rounded-full bg-[var(--blue-tint)] text-[var(--blue)] font-bold text-sm flex items-center justify-center mb-5">03</span>
+        <h3 class="font-bold text-base mb-2">Construimos tu hoja de ruta</h3>
+        <p class="text-base text-[var(--ink-mute)]">No sales de la llamada solo con motivación. Sales con un plan concreto, basado en tu situación real.</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-12">
+      <p class="text-base text-[var(--ink-mute)] mb-5">Sin presión, sin discursos de venta. Solo una conversación honesta sobre si esto encaja contigo.</p>
+      <a href="#" class="inline-flex items-center gap-2 bg-[var(--blue)] hover:bg-[var(--blue-deep)] transition-colors text-white text-xs font-bold uppercase tracking-wide px-7 py-4 rounded-full shadow-[0_14px_30px_-8px_rgba(8,88,226,0.45)]">
+        Reserva tu llamada gratis
+        <span class="flex items-center justify-center w-5 h-5 rounded-full bg-white/25">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section class="py-16 md:py-24 px-6 lg:px-8">
+  <div class="max-w-[1280px] mx-auto">
+    <div class="bg-white rounded-3xl border border-[var(--line)] shadow-sm p-8 md:p-14 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-[var(--blue)]">Caso de éxito</span>
+        <h2 class="mt-3 text-[24px] md:text-[32px] font-extrabold tracking-tight leading-tight">Juan pasó de cobrar <span class="hl">$0 por edición</span> para streamers a tener su primer cliente de <span class="hl">$1.000 dólares</span>.</h2>
+        <ul class="mt-6 space-y-3 text-lg text-[var(--ink-soft)]">
+          <li class="flex gap-2"><span class="text-[var(--blue)]">•</span>Llegó a Prime Editors sin un sistema de marca ni de captación.</li>
+          <li class="flex gap-2"><span class="text-[var(--blue)]">•</span>Aplicó el sistema de posicionamiento y captación de clientes.</li>
+          <li class="flex gap-2"><span class="text-[var(--blue)]">•</span>Pasó de editar gratis para streamers a cerrar su primer cliente de $1.000 dólares.</li>
+        </ul>
+        <p class="mt-6 text-base text-[var(--ink-mute)]">Mira el desglose completo de cómo lo consiguió aplicando el mismo método que enseño dentro de Prime Editors.</p>
+      </div>
+      <div class="relative aspect-video rounded-2xl bg-[var(--ink)] overflow-hidden flex items-center justify-center">
+        <button class="w-14 h-14 rounded-full bg-white flex items-center justify-center shadow-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--blue)"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANONYMOUS EDITOR STATEMENT -->
+<section class="relative overflow-hidden py-20 md:py-28 px-6 lg:px-8" style="background: radial-gradient(circle at 12% 15%, rgba(8,88,226,0.30), transparent 55%), var(--ink);">
+  <div class="max-w-[1280px] mx-auto grid md:grid-cols-2 gap-14 items-center">
+    <div>
+      <h2 class="text-white text-[28px] md:text-[38px] font-extrabold leading-[1.2] tracking-tight">
+        Hoy la habilidad de editar video es <span class="italic font-semibold text-[var(--blue-light)]">el activo más rentable</span> que puedes construir — sin necesidad de armar una marca personal.
+      </h2>
+      <p class="mt-6 text-lg text-white/70 max-w-[480px]">
+        Te formamos como <strong class="text-white">el editor que las marcas ya buscan</strong>, subes tus tarifas sin depender de likes ni de mostrar tu cara. <strong class="text-white">No necesitas miles de seguidores para facturar más</strong>; un editor con la estrategia correcta consigue clientes premium trabajando desde el anonimato.
+      </p>
+    </div>
+
+    <div class="relative h-[420px] md:h-[480px] max-w-[480px] w-full mx-auto">
+      <div class="absolute top-0 left-0 w-[58%] h-[64%] rounded-2xl overflow-hidden shadow-2xl z-10">
+        <img src="https://placehold.co/420x480/1A1A1A/8FB5F5?text=Marta" class="w-full h-full object-cover" alt="Marta">
+        <span class="absolute top-3 left-3 bg-black/50 backdrop-blur text-white text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Gaming</span>
+        <button class="absolute inset-0 m-auto w-10 h-10 rounded-full bg-white flex items-center justify-center">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="var(--blue)"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="absolute bottom-3 left-3">
+          <p class="text-white text-sm font-bold leading-none">Marta</p>
+          <p class="text-white/70 text-[11px] mt-1">+150K vistas editando</p>
+        </div>
+      </div>
+
+      <div class="absolute top-0 right-0 w-[42%] h-[42%] rounded-2xl overflow-hidden shadow-2xl z-20 rotate-1">
+        <img src="https://placehold.co/300x300/0858E2/FFFFFF?text=Bruno" class="w-full h-full object-cover" alt="Bruno">
+        <span class="absolute top-2 left-2 bg-black/50 backdrop-blur text-white text-[9px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full">Belleza</span>
+        <button class="absolute inset-0 m-auto w-8 h-8 rounded-full bg-white flex items-center justify-center">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="var(--blue)"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="absolute bottom-2 left-2">
+          <p class="text-white text-xs font-bold leading-none">Bruno</p>
+          <p class="text-white/70 text-[10px] mt-1">+80 vídeos entregados</p>
+        </div>
+      </div>
+
+      <div class="absolute bottom-0 left-[10%] w-[42%] h-[42%] rounded-2xl overflow-hidden shadow-2xl z-30 -rotate-1">
+        <img src="https://placehold.co/300x300/3A3A3A/FFFFFF?text=Sofia" class="w-full h-full object-cover" alt="Sofía">
+        <span class="absolute top-2 left-2 bg-black/50 backdrop-blur text-white text-[9px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full">Finanzas</span>
+        <button class="absolute inset-0 m-auto w-8 h-8 rounded-full bg-white flex items-center justify-center">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="var(--blue)"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="absolute bottom-2 left-2">
+          <p class="text-white text-xs font-bold leading-none">Sofía</p>
+          <p class="text-white/70 text-[10px] mt-1">Cliente premium en 30 días</p>
+        </div>
+      </div>
+
+      <div class="absolute bottom-0 right-0 w-[52%] h-[54%] rounded-2xl overflow-hidden shadow-2xl z-20">
+        <img src="https://placehold.co/420x420/8FB5F5/1A1A1A?text=Vale" class="w-full h-full object-cover" alt="Vale">
+        <span class="absolute top-3 left-3 bg-black/50 backdrop-blur text-white text-[10px] font-bold uppercase tracking-wide px-2.5 py-1 rounded-full">Podcast</span>
+        <button class="absolute inset-0 m-auto w-10 h-10 rounded-full bg-white flex items-center justify-center">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="var(--blue)"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="absolute bottom-3 left-3">
+          <p class="text-white text-sm font-bold leading-none">Vale</p>
+          <p class="text-white/70 text-[11px] mt-1">3 clientes fijos en 60 días</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white border-t border-[var(--line)] pt-14 pb-8 px-6 lg:px-8">
+  <div class="max-w-[1280px] mx-auto">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+      <div>
+        <div class="flex items-center gap-2.5 mb-4">
+          <img src="PERSONALIZACION/LOGO PRIME EDITORS.png" alt="Prime Editors" class="w-8 h-8 rounded-lg object-cover">
+          <div>
+            <p class="font-extrabold tracking-tight text-[15px] uppercase leading-none">Prime Editors</p>
+            <p class="text-xs text-[var(--ink-mute)] mt-1">por Marc O Editor</p>
+          </div>
+        </div>
+        <a href="#reservar" class="inline-flex items-center gap-2 bg-[var(--blue)] hover:bg-[var(--blue-deep)] transition-colors text-white text-[11px] font-bold uppercase tracking-wide px-5 py-3 rounded-full">
+          Reserva tu llamada
+          <span class="flex items-center justify-center w-4 h-4 rounded-full bg-white/25">
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+      <div class="flex gap-8 text-xs font-semibold uppercase tracking-wide text-[var(--ink-mute)]">
+        <span>Prime Editors</span>
+        <span>Sobre mí</span>
+        <span>Contacto</span>
+      </div>
+    </div>
+    <div class="mt-10 pt-6 border-t border-[var(--line)] flex flex-col sm:flex-row justify-between gap-2 text-xs text-[var(--ink-mute)]">
+      <span>© 2026 Prime Editors. Todos los derechos reservados.</span>
+      <span>Aviso legal · Privacidad</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
